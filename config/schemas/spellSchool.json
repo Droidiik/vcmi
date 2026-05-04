@@ -4,7 +4,9 @@
 	"title" : "VCMI spell school format",
 	"description" : "Format used to define new spell schools in VCMI",
 	"required" : [ "schoolBorders", "name" ],
-	"additionalProperties" : false,
+	"additionalProperties": {
+		"$ref": "#"
+	},
 	"properties" : {
 		"compatibilityIdentifiers" : {
 			"type" : "array",
