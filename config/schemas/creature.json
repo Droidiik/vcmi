@@ -47,7 +47,9 @@
 			}
 		}
 	],
-	"additionalProperties" : false,
+	"additionalProperties": {
+		"$ref": "#"
+	},
 	"properties" : {
 		"compatibilityIdentifiers" : {
 			"type" : "array",

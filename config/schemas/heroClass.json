@@ -8,7 +8,9 @@
 		"primarySkills", "secondarySkills", "lowLevelChance", "highLevelChance", 
 		"defaultTavern", "tavern"
 	],
-	"additionalProperties" : false,
+	"additionalProperties": {
+		"$ref": "#"
+	},
 	"properties" : {
 		"compatibilityIdentifiers" : {
 			"type" : "array",
