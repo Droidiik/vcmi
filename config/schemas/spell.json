@@ -477,7 +477,9 @@
 		}
 	},
 	"required" : ["type", "name", "school", "level", "power", "flags", "levels"],
-	"additionalProperties" : false,
+	"additionalProperties": {
+		"$ref": "#"
+	},
 	
 	"allOf": [
 		{
