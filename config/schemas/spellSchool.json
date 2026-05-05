@@ -35,7 +35,7 @@
 		},
 		"schoolHeader" : {
 			"type" : "string",
-			"description" : "Header of scool for spellbook",
+			"description" : "Header of school for spellbook",
 			"format" : "imageFile"
 		}
 	}
