@@ -116,5 +116,8 @@
 	"special" : {
 		"type" : "boolean",
 		"description" : "If true, skill is not available on maps at random"
+	},
+	"additionalProperties": {
+		"$ref": "#"
 	}
 }
